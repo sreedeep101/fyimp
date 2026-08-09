@@ -12,7 +12,7 @@ while True:
   print('SERVER : ' , RECIVED_MESSAGE )
 
   if(RECIVED_MESSAGE == 'exiting...'):
-    break:
+    break
 
   MESSAGE_SEND = input('YOUR MESSAGE : ')
   c.send(bytes(MESSAGE_SEND,'utf-8'))
